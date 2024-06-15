@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="WDD 131 - Web Dynamic Fundamental's Home Page and helpfull resources for Elisabete Patrícia Rodrigues Bragança Stahl">
+    <meta name="keywords" content="Course, WDD131, BYU, Helpfull resources, 2024">
+    <meta name="author" content="Elisabete Stahl">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <title>WDD 131 - Dynamic Web Fundamentals - Elisabete Stahl</title>
 </head>
+
 <body>
-    <h1>Test</h1>
+
+    <header>
+
+        <div class="header-title">
+            <h1 id="course-tile">WDD 131 - Dynamic Web Fundamentals - Elisabete Stahl</h1>
+            
+        </div>
+        <div class="nav-links">
+
+            <nav>
+                <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit">LinkedIn</a>
+                <a href="https://byui.instructure.com/">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng&id=p11-p13#p11">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="main">
+        <section class="card" id="about-me">
+
+            <div class="about-me">
+                <h2>About me</h2>
+            </div>
+            
+            <div class="text-photo">
+                <p id="intro">My name is Elisabete and I was born and raised in Portugal, but I live now with my family in Switzerland.
+                    I am currently working as an ITC Junior Engineer at Siemens. I love to read, travel and go on hikes 
+                    with my husband!  </p>
+                <img id="profile-jpg" src="../images/my-photo.jpg" alt="Elisabete Stahl profile picture">
+            </div>
+
+            <div class="city-info">
+                <h3>Aargau, Switzerland</h3>
+                <hr id="custom-line">
+            </div>
+
+            <div class="Switzerland-info">
+                <figure>
+                    <img id="switzerland-flag" src="../images/swiss-flag.jpg" alt="Switzerland's official flag">
+                    <figcaption>Image by <a href="https://pixabay.com/users/kaufdex-2137215/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2697277">Kaufdex</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2697277">Pixabay</a></figcaption>
+                </figure>
+
+                <p>Switzerland is officially known as The Swiss Confederation and is home to 8,292,809 people.
+                    Switzerland is a land-locked country located in central Europe and has four national 
+                    languages: Swiss-german, French, Italian and Romanch. Its capital city is Bern and it has 25 more cantons 
+                    all over the country, being that more than 50% of the country is actually occupied by the astounding 
+                    Swiss Alps! 
+                </p>
+            </div>
+              
+        </section>
+
+
+
+        <!--The resources/links section-->
+
+        <section class="card" id="web-dev-resources">
+
+            <div class="web-dev-resources">
+                <h2>Web Dev Resources</h2>
+            </div>
+
+            <div class="resources">         
+                <ul id="resource-links">
+                    <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                    <li><a href="https://codepen.io/trending">Codepen</a></li>
+                    <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="footer-top"> 
+            <p id="author"> &copy; 2024 &nbsp; &nbsp; &nbsp; &nbsp; &#128507; &nbsp; &nbsp; &nbsp; &nbsp; Elisabete Stahl &nbsp; &nbsp; &nbsp; &nbsp; &#128507; &nbsp; &nbsp; &nbsp; &nbsp; Switzerland</p>
+        </div>
+
+        <p id="modification-date">Last Modification: <span id="date-time"></span></p>
+    </footer>
+
 </body>
+
 </html>
