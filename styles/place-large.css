@@ -71,16 +71,11 @@
     }
     
 
-    .rain-svg {
-        grid-row: 2;
-        margin-top: -50px;
-        margin-left: 45px;
-        padding-left: 35px;
-    }
+   
 
     /* pseudo element-required */
-    .rain-svg::after {
-        content: "- prediction";
+    .rain-thunder::after {
+        content: "- prognóstico";
     }
 
 
@@ -88,10 +83,5 @@
 
 @media screen and (min-width: 1440px) {
     
-    .rain-svg {
-        grid-row: 2;
-        margin-top: -50px;
-        margin-left: 85px;
-        padding-left: 35px;
-    }
+   
 }

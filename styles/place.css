@@ -115,16 +115,15 @@ td {
     
 }
 
-.rain-svg {
-    margin-left: 0rem;
-    max-width: 33%;
+.rain-thunder {
+    margin-left: 35%;
+    margin-top: 5%;
+    max-width: 20%;
 }
 
 
 
 footer {
-    border-top: solid black;
-    border-bottom: solid black;
     background-color: #e90404;
     padding: 10px;
     font-size:14px;
