@@ -58,26 +58,6 @@ nav a:hover {
     border-bottom: 1.5px solid white;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    
-
-}
-
-main img {
-    width: 100%;
-    padding: 20px;    
-}
-
-figcaption {
-    text-align: center;
-    font-size: 16px;
-}
-
-
-
 .open  {
     background-color: #255ea8;
     position: absolute;
@@ -113,4 +93,35 @@ footer {
 
 #date-time {
     font-size: 17px;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+
+#photos {
+    display: grid;
+    grid-gap: 25px;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    align-content: center;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: .5rem;
+    aspect-ratio: 8/5;
+}
+
+p {
+    font-size: medium;
+    text-align: center;
+}
+
+#photos h3 {
+    text-align: center;
 }
