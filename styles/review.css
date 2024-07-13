@@ -1,7 +1,7 @@
 header h1 {
-    background-color: white;
+    background-color: #8c0391;
     text-align: center;
-    color: #8c0391;
+    color: white;
     width: 100%;
 }
 
@@ -25,7 +25,7 @@ main {
 }
 
 #reviewCountContainer {
-    background-color: #e0f7fa;
+    background-color: #d5b1f1;
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@ main {
 footer {
     text-align: center;
     margin-top: 20px;
-    background-color: #e0f7fa;
+    background-color: #d5b1f1;
     color: black;
 }
 
