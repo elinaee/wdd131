@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #FFD7AF;
+}
+
+.primary-color {
+    color: #FFD7AF; 
+}
+
+.primary-bg-color {
+    background-color: #FFD7AF; 
+    padding: 10px 20px;
+    border: none;
+    color: #F5B959; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secondary-color {
+    color: #F5B959; 
+}
+
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.card {
+    display: block;
+    background-color: White;
+    border: 3px solid #85F7FF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #F5B959;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.card p {
+    font-size: 18px;
+    color: #333;
+}
+
+.card ol,
+.card ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card ol {
+    color: #000000; 
+    list-style-type: decimal; 
+}
+
+.card ul {
+    color: #000000; 
+    list-style-type: disc; 
+}
+
+.card ol li,
+.card ul li {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.color-info h3 {
+    color: #85F7FF;
+}
+
+#color-schema-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+}
+
+#color-schema-card .color-info {
+    display: flex;
+    gap: 10px;
+}
+
+#color-schema-card .color-code {
+    font-weight: bold;
+    width: 120px;
+    text-align: right;
+    margin: 0;
+}
+
+#light-orange-hex-code{
+    padding-left: 72px;
+}
+
+.light-orange {
+    margin-top: -5px;
+}
+
+.hunyadi-yellow {
+    margin-top: -5px;
+}
+
+.electric-blue {
+    margin-top: -5px;
+}
+
+.color-box {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ac9b58;
+    margin-top: 5px;
+
+}
+
+.color-box p {
+    width: 50px;
+    height: 50px;
+}
+
+#wireframe-large {
+    width: 350px;
+    height: auto;
+    display: flex;
+
+}
+
+#wireframe-mobile {
+    width: 150px;
+    height: auto;
+    display: flex;
+    margin-left: 90px;
+
+}
