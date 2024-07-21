@@ -1,0 +1,434 @@
+/*------- HEADER -------*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f4f8;
+    max-width: 100%;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: none;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+    width: 100%;
+    width: 100%;
+    font-weight: 100;
+    font-size: 40px;
+    padding: 15px;
+    color: black;
+    text-decoration-line: underline;
+    background-color: #85F7FF;
+    opacity: 70%; 
+    top: 15%;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+
+/* ---------- NAVIGATION CSS --------- */
+  
+.nav-links {
+    background-color: black;
+    width: 100%;
+    margin-top: -20px;
+    padding: 15px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+nav a {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-family: "Calibri";
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 13px;
+    margin-left: 200px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    text-decoration: overline;
+    border: 1px solid #ffffff;
+}
+  
+nav ul {
+    display: flex;
+    flex: 1 1 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    flex: 1 1 100%;
+    margin: 0 10px;
+}
+
+
+
+
+
+/*-------- BODY ----------*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, label, input, select, textarea, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 3rem;
+    background: #ffffff;
+    border: 2px solid #85F7FF;
+    border-radius: 15px;
+}
+
+
+
+
+/* -------FORM SECTION-------- */
+
+.no-border {
+    border: none;
+}
+
+fieldset {
+    display: block;
+    margin-bottom: 15px;
+    border-left: 5px solid #85F7FF;
+    padding-left: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+.rating {
+    color: black;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating-container label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="date"], 
+input[type="radio"],
+input[type="text"],
+textarea,
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+}
+
+fieldset label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    width:92%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: -10px;
+    background-color: #F5B959;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #F5B959;
+}
+
+.checklist-italics {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+
+
+
+/* ----- --- FOOTER --------- */
+
+footer {
+    background-color: #85F7FF;
+    text-align: center;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    min-width: 100%;
+}
+  
+footer .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+  
+#author {
+    color: black;
+    font-size: 20px;
+}
+
+#modification-date {
+    color: black;
+    margin: 20px;
+}
+
+
+
+/* ------------------------- */
+
+h3 {
+    text-align: center;
+}
+
+#reviewCount {
+    font-weight: bold;
+    color: #FFD7AF;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.container h3 {
+    color: #FFD7AF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container #reviewCount {
+    font-weight: bold;
+    color: #FFD7AF;
+}
+
+.required {
+    color: red;
+    margin-left: 3px; 
+}
+
+
+
+
+/* ----- Media query for mobile devices ----- */
+@media screen and (max-width: 320px) {
+    .rating-container {
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .rating-container label {
+        flex-basis: 50%; /* Make each label take 50% width */
+        box-sizing: border-box;
+        padding: 5px; /* Add padding to create spacing between items */
+        text-align: center; /* Center align the content */
+    }
+
+    .rating-container label input[type="radio"] {
+        margin-top: 5px; /* Adjust top margin for spacing */
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f4f8;
+        max-width: 100%;
+    }
+    
+    .header-title {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: none;
+    }
+
+    header h1 {
+        text-align: center;
+        color: black;
+        width: 100%;
+        width: 100%;
+        font-weight: 100;
+        font-size: 40px;
+        padding: 15px;
+        color: black;
+        text-decoration-line: underline;
+        background-color: #85F7FF;
+        opacity: 70%; 
+        top: 15%;
+        z-index: 1;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 375px) {
+    .rating-container {
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .rating-container label {
+        flex-basis: 50%; /* Make each label take 50% width */
+        box-sizing: border-box;
+        padding: 5px; /* Add padding to create spacing between items */
+        text-align: center; /* Center align the content */
+    }
+
+    .rating-container label input[type="radio"] {
+        margin-top: 5px; /* Adjust top margin for spacing */
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f4f8;
+        max-width: 100%;
+    }
+    
+    .header-title {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+        background-color: none;
+    }
+
+    header h1 {
+        text-align: center;
+        color: black;
+        width: 100%;
+        width: 100%;
+        font-weight: 100;
+        font-size: 40px;
+        padding: 15px;
+        color: black;
+        text-decoration-line: underline;
+        background-color: #85F7FF;
+        opacity: 70%; 
+        top: 15%;
+        z-index: 1;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .rating-container {
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .rating-container label {
+        flex-basis: 50%; /* Make each label take 50% width */
+        box-sizing: border-box;
+        padding: 5px; /* Add padding to create spacing between items */
+        text-align: center; /* Center align the content */
+    }
+
+    .rating-container label input[type="radio"] {
+        margin-top: 5px; /* Adjust top margin for spacing */
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f4f8;
+        max-width: 100%;
+    }
+    
+    .header-title {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        margin-bottom: 20px;
+        background-color: none;
+    }
+    
+    header h1 {
+        text-align: center;
+        color: black;
+        width: 100%;
+        width: 100%;
+        font-weight: 100;
+        font-size: 40px;
+        padding: 15px;
+        color: black;
+        text-decoration-line: underline;
+        background-color: #85F7FF;
+        opacity: 70%; 
+        top: 15%;
+        z-index: 1;
+        text-align: center;
+    }
+}

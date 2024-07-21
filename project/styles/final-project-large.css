@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;  
+        grid-template-rows: 1fr;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-blend-mode:luminosity;
+        font-size: 20px;
+    }
+
+    .sun-cloud {
+        width: 90px;
+    }
+   
+
+    
+
+    #portugal-flag {
+        max-width: 800px;
+        opacity: 88%;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    
+   .sun-cloud {
+    width: 100px;
+   }
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD 131 - Web Dynamic Fundamental's Final Project">
+    <meta name="keywords" content="Portugal, Lisbon, Porto, portuguese">
+    <meta name="author" content="Elisabete Stahl">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/final-project.css">
+    <link rel="stylesheet" href="styles/final-project-large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/final-project.js" defer></script>
+    <title>Final Project: Portugal - A Tourist's Guide</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav-links">
+
+            
+
+            <nav>
+                <a href="final-project.html">Home</a>
+                <a href="lisboa.html">Lisboa</a>
+                <a href="porto.html">Porto</a>
+                <a href="psst.html">Psst</a>
+            </nav>
+        </div>
+
+        <div class="header-title">
+            <h1>Portugal: A Tourist's Guide</h1>
+        </div>
+
+    </header>
+
+
+    <!--Lazy Loading for the banner photo -->
+    <picture>
+        <source srcset="images/banner-large.webp" media="(min-width: 1000px)">
+        <source srcset="images/banner-medium.webp" media="(min-width:700px)">
+        <img class="portuguese-nature" src="images/banner-small.webp" alt="Photo of a coastal landscape in Portugal" loading="lazy" width="400px" height="500px">
+    </picture>
+
+
+
+    <main class="main">
+
+        <figure>
+            <img id="portugal-flag" src="images/portugal-flag.webp" alt="Portugal's national flag" loading="lazy">
+            <figcaption>Image by <a href="https://pixabay.com/users/kaufdex-2137215/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2697043">Kaufdex</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2697043">Pixabay</a></a></figcaption>
+        </figure>
+        
+        <section class="card" id="about-pt">
+
+            <div class="about-pt">
+                <h2>Did you know ....</h2>
+            </div>
+            
+            <div class="info-pt">
+                <p id="curiosities">
+                    <b>The oldest bookstore in the world:</b> Portugal is home to the oldest bookstore in the world, Livraria Bertrand, which has been in operation since 1732. <br>
+                    <b>The country of explorers:</b> Portugal has a rich history of exploration, with famous explorers like Vasco da Gama, Ferdinand Magellan, and Bartolomeu Dias discovering new lands and sea routes.<br>
+                    <b>The birthplace of the Portuguese language:</b> The Portuguese language was born in the 12th century in the region of Galicia, which is now part of Spain. However, it was in Portugal that the language developed and evolved into the distinct dialect we know today.<br>
+                    <b>The country of Fado music:</b> Fado, a traditional Portuguese music style, is a symbol of Portuguese culture and is recognized by UNESCO as an Intangible Cultural Heritage of Humanity.<br>
+                    <b>The land of cork: </b> Portugal is the world's largest producer of cork, with the majority of the world's cork oak forests found in the Alentejo region. <br>
+                    <b>The oldest European country:</b> Portugal is one of the oldest countries in Europe, with its borders remaining largely unchanged since the 13th century.<br>
+                    <b>The land of tiles:</b> Portugal is famous for its beautiful azulejo tiles, which adorn the walls of buildings, churches, and palaces throughout the country.<br>
+                    <b>The country of surf:</b> Portugal has a long coastline with consistent waves, making it a popular destination for surfers from around the world.<br>
+                    <b>The country of festivals:</b> Portugal has a rich cultural calendar, with numerous festivals and celebrations throughout the year, such as the Festa de Santo António in Lisbon and the Festa do Avante! in Setúbal.<br>
+                    <b>The country of gastronomy:</b> Portuguese cuisine is a fusion of Mediterranean and Atlantic flavors, with popular dishes like bacalhau à brás, frango grelhado, and pastéis de nata.<br>
+                    <b>The country of beaches:</b> Portugal has a stunning coastline with over 1,000 km of beaches, from the golden sands of the Algarve to the rugged cliffs of the Costa Vicentina.<br>
+                </p>
+            </div>
+              
+        </section>
+
+
+
+
+        <!-- Data -->
+
+        <section class="card2" id="web-dev-resources">
+
+            <div class="web-dev-resources">
+                <h2>General Info</h2>
+            </div>
+
+            <div class="data-container">
+                <table class="table">
+                <tbody>
+                    <tr>
+                        <td class="key-bold">Area:</td>
+                        <td>92,212 km2<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td class="key-bold">Population:</td>
+                        <td>10,355,493</td>
+                    </tr>
+                    <tr>
+                        <td class="key-bold">Language</td>
+                        <td>Portuguese and Mirandese</td>
+                    </tr>
+                    <tr>
+                        <td class="key-bold"> Currency:</td>
+                        <td>Euro (€)</td>
+                    </tr>
+                    <tr>
+                        <td class="key-bold">Time Zone:</td>
+                        <td>UTC+01:00 (UTC+1)</td>
+                    </tr>
+                    <tr>
+                        <td class="key-bold">Calling Code:</td>
+                        <td> +351</td>
+                    </tr>
+                </tbody>
+                </table>
+            </div>
+
+        </section>
+
+
+
+        <!--Weather in Portugal-->
+
+        <section class="card" id="web-dev-resources">
+
+            <div class="web-dev-resources">
+                <h2>Current Weather in Continental Portugal</h2>
+            </div>
+
+            <!--weather-->
+            <div class="weather-container">
+                <img class="sun-cloud" src="images/partly-cloudy.svg" alt="Partly cloudy with sun">
+                <table class="weather-table">
+                    <tbody>
+                        <tr>
+                            <td class="key-bold">Temperature:</td>
+                            <td>25&deg; C</td>
+                        </tr>
+                        <tr>
+                            <td class="key-bold">Conditions:</td>
+                            <td>Partly cloudy with sunny intervals</td>
+                        </tr>
+                        <tr>
+                            <td class="key-bold">Wind:</td>
+                            <td>13 km/h</td>
+                        </tr>
+                        <tr>
+                            <td class="key-bold">Wind Chill:</td>
+                            <td>N/A</td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+
+            
+        </section>
+
+
+
+    </main>
+
+    <footer>
+
+        <div class="footer-top"> 
+            <p id="author"> &copy; 2024 &nbsp; &nbsp; &nbsp; &nbsp; &#128507; &nbsp; &nbsp; &nbsp; &nbsp; Elisabete Stahl &nbsp; &nbsp; &nbsp; &nbsp; &#128507; &nbsp; &nbsp; &nbsp; &nbsp; Switzerland</p>
+        </div>
+
+        <p id="modification-date">Last Modification: <span id="date-time"></span></p>
+    </footer>
+
+</body>
+
+</html>
